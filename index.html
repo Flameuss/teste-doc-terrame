@@ -1,0 +1,700 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="dois/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+    
+    
+      
+        <title>TerraMe</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#terrame-multiparadigm-modeling-toolkit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="TerraMe" class="md-header__button md-logo" aria-label="TerraMe" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TerraMe
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TerraME: Multiparadigm Modeling Toolkit
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="indigo"  aria-label="Modo noturno"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo noturno" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="indigo"  aria-label="modo claro"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="TerraMe" class="md-nav__button md-logo" aria-label="TerraMe" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    TerraMe
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    TerraME: Multiparadigm Modeling Toolkit
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    TerraME: Multiparadigm Modeling Toolkit
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    Download
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editor" class="md-nav__link">
+    Editor
+  </a>
+  
+    <nav class="md-nav" aria-label="Editor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tutorials" class="md-nav__link">
+    Tutorials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    Packages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#courses" class="md-nav__link">
+    Courses
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#papers-and-reports" class="md-nav__link">
+    Papers and reports
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions" class="md-nav__link">
+    Extensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#people" class="md-nav__link">
+    People
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supporting-software" class="md-nav__link">
+    Supporting Software
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    About
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statistics" class="md-nav__link">
+    Statistics
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dois/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dois teste
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    Download
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editor" class="md-nav__link">
+    Editor
+  </a>
+  
+    <nav class="md-nav" aria-label="Editor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tutorials" class="md-nav__link">
+    Tutorials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    Packages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#courses" class="md-nav__link">
+    Courses
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#papers-and-reports" class="md-nav__link">
+    Papers and reports
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions" class="md-nav__link">
+    Extensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#people" class="md-nav__link">
+    People
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supporting-software" class="md-nav__link">
+    Supporting Software
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    About
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statistics" class="md-nav__link">
+    Statistics
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="terrame-multiparadigm-modeling-toolkit">TerraME: Multiparadigm Modeling Toolkit</h1>
+<hr />
+<p><img alt="Images" src="images/topo.png" /></p>
+<p>TerraME is a programming environment for spatial dynamical modelling. It supports cellular automata, agent-based models, and network models running in 2D cell spaces. TerraME provides an interface to TerraLib geographical database, allowing models direct access to geospatial data. Its modelling language has in-built functions that makes it easier to develop multi-scale and multi-paradigm models for environmental applications.</p>
+<p>Two important innovations in TerraME are its use of anisotropic spaces and of hybrid automata models. Anisotropic spaces arise when modeling natural and human-related phenomena. For example, land settlers in a new area do not occupy all places at the same time. They follow roads and rivers, leading to an anisotropic pattern. Anisotropic spaces are implemented in TerraME using Generalized Proximity Matrices (GPM). The GPM is an extension of the usual definition of the spatial relations and include a combination of neighborhood measures in the absolute space and in the relative space.</p>
+<p>A hybrid automaton is an abstract model for a system whose behavior has discrete and continuous parts. It extends the idea of finite automata to allow continuous change to take place between transitions. Adopting hybrid automata in spatial dynamical models allows complex models which include critical transitions.</p>
+<p>A vision of research motivations and directions of Environmental Modelling in INPE is available <a href="http://www.terrame.org/lib/exe/fetch.php?tok=d5e0fa&amp;media=http%3A%2F%2Fwww.dpi.inpe.br%2Fgilberto%2Fpresent%2Fvision.ppt">in this presentation</a>. An early presentation of our vision is <a href="http://www.terrame.org/lib/exe/fetch.php?tok=28b647&amp;media=http%3A%2F%2Fwww.dpi.inpe.br%2Fgilberto%2Fpresent%2Fcamara_giscience2006_keynote.ppt">How can GIScience contribute to Land Change Modelling?</a>, the keynote speech at GIScience 2006. The rationale for the TerraME software is presented in the lecture <a href="http://www.terrame.org/lib/exe/fetch.php?tok=a137e6&amp;media=http%3A%2F%2Fwww.dpi.inpe.br%2Fgilberto%2Fpresent%2Fmodelling_human_environment_interactions.ppt">Modelling human-environment interactions</a>, presented in the Vespucci Summer School 2010.</p>
+<h2 id="download">Download</h2>
+<hr />
+<p>The latest version of TerraME is 2.0.1 (Released on 20 August 2020). It has installers for Windows and Mac and there is a compiled version for Linux.</p>
+<ul>
+<li><a href="https://github.com/TerraME/terrame/releases"><strong>Download TerraME 2.0.1</strong></a></li>
+</ul>
+<p>In Windows, you can run TerraME by clicking in the icon on Desktop. In Mac and Linux, it is possible to run it by calling</p>
+<div class="highlight"><pre><span></span><code>$&gt;<span class="w"> </span>terrame
+</code></pre></div>
+<p>using the command prompt. The graphical interface has options to run examples, configure and run models, see documentation, as well as download and install additional packages. There are links to the source code of the models as well as the examples in the documentation.</p>
+<h2 id="editor">Editor</h2>
+<hr />
+<p>You can implement models in TerraME using any text file editor of your preference, such as <a href="http://notepad-plus-plus.org/">Notepad++</a>, <a href="http://www.vim.org/">Vim</a> or <a href="http://www.gnu.org/software/emacs/">Emacs</a>. We currently suggest that you use <a href="http://studio.zerobrane.com/">ZeroBraneStudio</a> as your programming environment to develop models in TerraME. It is free and open source (but it is possible to donate to the project). After downloading and installing ZeroBraneStudio (ZBS), please execute the steps in the tutorial available <a href="https://github.com/TerraME/terrame/wiki/ZB">here</a>.</p>
+<p>Documentation</p>
+<hr />
+<h3 id="tutorials">Tutorials</h3>
+<ul>
+<li><a href="http://www.terrame.org/lib/exe/fetch.php?media=docs:luaforterrame-ashortintroduction2.pdf">Lua for TerraME: A Short Introduction</a></li>
+<li><a href="https://github.com/TerraME/terrame/wiki/Introduction">An Introduction to TerraME</a></li>
+<li><a href="https://github.com/TerraME/terrame/wiki/Paradigms">Modeling Paradigms in TerraME</a></li>
+<li><a href="https://github.com/TerraME/terrame/wiki/Fill">Creating and Filling Cellular Spaces</a></li>
+<li><a href="https://github.com/TerraME/terrame/wiki/Calibration">Multiple Simulations</a></li>
+<li><a href="https://github.com/TerraME/terrame/wiki/Publish">Publishing Geospatial Data</a></li>
+</ul>
+<h3 id="faq">FAQ</h3>
+<p>Frequently asked questions are answered <a href="https://github.com/TerraME/terrame/wiki/FAQ">here</a>.</p>
+<h3 id="packages">Packages</h3>
+<p>You can execute a Google search in TerraME packages <a href="https://cse.google.com/cse/publicurl?cx=011124210546699273653:pomdzxscb3o">here</a>. The two basic packages of TerraME that comes with its installation are:</p>
+<ul>
+<li><a href="http://www.terrame.org/packages/doc/base/doc/index.html"><strong>base</strong></a>: A package with the basic modelling concepts, such as Cell, CellularSpace, Agent, Timer, and Model.</li>
+<li><a href="http://www.terrame.org/packages/doc/gis/doc/index.html"><strong>gis</strong></a>: A package to handle geospatial data. It has types to manage TerraView projects as well as functions to create and fill cellular layers.</li>
+</ul>
+<p>Using the graphical interface, it is possible to download and install packages from TerraME's repository. They are are:</p>
+<ul>
+<li><a href="http://www.terrame.org/packages/doc/ca/doc/index.html"><strong>ca</strong></a>: Some cellular automata models.</li>
+<li><a href="http://www.terrame.org/packages/doc/logo/doc/index.html"><strong>logo</strong></a>: Basic spatial agent-based models.</li>
+<li><a href="http://www.terrame.org/packages/doc/sci/doc/index.html"><strong>sci</strong></a>: A small package with interpolation functions.</li>
+<li><a href="http://www.terrame.org/packages/doc/sysdyn/doc/index.html"><strong>sysdyn</strong></a>: Examples using system dynamics models.</li>
+<li><a href="http://www.terrame.org/packages/doc/calibration/doc/index.html"><strong>calibration</strong></a>: Functions to run a given model several times, as well as metrics to compute goodness-of-fit and to calibrate models using genetic algorithms.</li>
+<li><a href="http://www.terrame.org/packages/doc/publish/doc/index.html"><strong>publish</strong></a>: Create webmap tools using the input as well as output of models.</li>
+</ul>
+<p>Under development packages:</p>
+<ul>
+<li><a href="http://www.terrame.org/packages/doc/gpm/doc/index.html"><strong>gpm</strong></a>: Create geospatial data as well as neighbourhood files using connectivity networks such as roads.</li>
+<li><strong>rstats</strong>: Integrate TerraME with R.</li>
+</ul>
+<p>You can run examples directly in the graphical interface of TerraME. Click in the Desktop icon to open it in Windows or run “terrame” in the command line to open the graphical interface. From the graphical interface it is possible to see the documentation of each installed package.</p>
+<h3 id="courses">Courses</h3>
+<ul>
+<li>We use TerraME on our courses on Enviromental Modelling. We give regular graduate courses in the research programs in Earth System Science at INPE and Computer Science at UFOP.</li>
+</ul>
+<h3 id="papers-and-reports">Papers and reports</h3>
+<ul>
+<li>Bezerra et al. <a href="https://doi.org/10.1371/journal.pone.0256052">New land-use change scenarios for Brazil: Refining global SSPs with a regional spatially-explicit allocation model</a>. Plos one 17.4, 2022: e0256052.</li>
+<li>Aguiar et al. <a href="https://doi.org/10.1111/gcb.13134">Land use change emission scenarios: anticipating a forest transition process in the Brazilian Amazon</a>. Global change biology, v. 22, n. 5, p. 1821-1840, 2016.</li>
+<li>Aguiar et al. <a href="https://doi.org/10.1111/j.1365-2486.2012.02782.x">Modeling the spatial and temporal heterogeneity of deforestation‐driven carbon emissions: the INPE‐EM framework applied to the Brazilian Amazon</a>. Global Change Biology, v. 18, n. 11, p. 3346-3366, 2012.</li>
+<li>Carneiro, T. G. S. ; Andrade, P. R. ; Câmara, G. ; Monteiro, A. M. V. ; Pereira, R. R. . <a href="http://www.sciencedirect.com/science/article/pii/S1364815213000534">An extensible toolbox for modeling nature-society interactions</a>. <em>Environmental Modelling &amp; Software</em>, 2013. DOI:10.1016/j.envsoft.2013.03.002.</li>
+<li>Silva, S. H. C. ; Carneiro, T. G. S. ; Lima, J.. TerraME HPA: Parallel Simulation of Multi-Agent Systems over SMP. <em>ACM SIGSIM Conference on Principles of Advanced Discrete Simulation</em>, 2013, Montreal.</li>
+<li>Rodrigues, A. J. C., Carneiro, T. G. S., Andrade, P. R.. <a href="http://www.terralab.ufop.br/dokuwiki/lib/exe/fetch.php?media=terralab:publicacoes:observer-article-final.pdf">TerraME Observer: An extensible real-time visualization pipeline for dynamic spatial models</a>. <em>XVIII Brazilian Symposium on Geoinformatics</em>, Campos do Jordão, 2012.</li>
+<li>Moreira, Costa, Aguiar, Camara, Carneiro. <a href="http://www.terrame.org/lib/exe/fetch.php?tok=a7b3a6&amp;media=http%3A%2F%2Fwww.dpi.inpe.br%2Fgilberto%2Fpapers%2Fmoreira_landscape_ecology_2009.pdf">Dynamical coupling of multiscale land change models</a>,<em>Landscape Ecology</em>, 24(9), p. 1183-1194, 2009.</li>
+<li>Andrade, Monteiro, Câmara, Sandri. <a href="http://www.terrame.org/lib/exe/fetch.php?tok=8bdab2&amp;media=http%3A%2F%2Fwww.dpi.inpe.br%2Fgilberto%2Fpapers%2Fandrade_mobility_jasss_2009.pdf">Games on Cellular Spaces: How Mobility Affects Equilibrium</a>.<em>Journal of Artificial Societies and Social Simulation (JASSS)</em>, 12(1), p. 4, 2009.</li>
+<li>Carneiro, Câmara, Maretto. <a href="http://www.terrame.org/lib/exe/fetch.php?tok=e74f1a&amp;media=http%3A%2F%2Fwww.dpi.inpe.br%2Fgilberto%2Fpapers%2Firregular_cellular_space_geoinfo2008.pdf">Irregular Cellular Spaces: Supporting Realistic Spatial Dynamic Modeling using Geographical Databases</a>. <em>X Brazilian Symposium on Geoinformatics</em>, GeoInfo'08, Rio de Janeiro, 2008.</li>
+<li>Carneiro. <a href="http://www.terrame.org/lib/exe/fetch.php?tok=eeb8ff&amp;media=http%3A%2F%2Fwww.dpi.inpe.br%2Fgilberto%2Fteses%2Fnested_ca.pdf">Nested-CA: a foundation for multiscale modeling of land use and land change.</a> <em>PhD Thesis</em>, INPE, 2006.</li>
+</ul>
+<h2 id="extensions">Extensions</h2>
+<hr />
+<ul>
+<li><a href="http://luccme.ccst.inpe.br/">LUCCME</a>, an extension for top-down land change modeling.</li>
+<li><a href="http://inpe-em.ccst.inpe.br/conteudo_en/index.html">INPE-EM</a>, a framework to compute greenhouse gases emission estimates from land cover change</li>
+</ul>
+<h2 id="people">People</h2>
+<hr />
+<p>The chief developers of TerraME are Pedro R. Andrade, from INPE, and <a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:tiago:indice">Tiago Garcia de Senna Carneiro</a>, from Federal University of Ouro Preto (UFOP). INPE's researchers involved in developing models using TerraME include <a href="http://www.dpi.inpe.br/gilberto">Dr. Gilberto Camara</a>, <a href="http://www.dpi.inpe.br/~miguel">Dr. Antonio Miguel Monteiro</a>, and<a href="http://www.dpi.inpe.br/quem_somos/anapaula/">Dr. Ana Paula Aguiar</a>. The current development group is composed of:</p>
+<ul>
+<li>Rodrigo Avancini</li>
+<li>Antônio Oliveira Jr.</li>
+<li>Heitor Guerra</li>
+<li>João Chagas</li>
+<li>Pedro Henrique Costa</li>
+<li>Raphael Costa</li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:reisrodrigo:indice">Rodrigo Reis Pereira</a></li>
+</ul>
+<p>Past contributors to TerraME include:</p>
+<ul>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:antonio:indice">Antônio José da Cunha Rodrigues</a></li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:pereirabreno:indice">Breno de Almeida Pereira</a></li>
+<li><a href="https://plus.google.com/109986130474370451035/about">Frederico Gadelha Guimarães</a></li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:camellohenrique:indice">Henrique Cota Camello</a></li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:lagerafael:indice">Rafael Lage Moreira Barbosa</a></li>
+<li>Raian Vargas Maretto</li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:rodolfo:indice">Rodolfo Ayala Lopes Costa</a></li>
+<li><a href="http://sites.google.com/site/amazonida/">Rodolfo Maduro Almeida</a></li>
+<li>Sergio Souza Costa</li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:henriquesaulo:indice">Saulo Henrique Cabral Silva</a></li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:tiagolima:indice">Tiago Franca de Melo Lima</a></li>
+<li><a href="http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:francawashington:indice">Washington Sena de França</a></li>
+</ul>
+<h2 id="supporting-software">Supporting Software</h2>
+<hr />
+<p>The TerraME modelling language is an extension of the Lua programming language and interfaces to TerraLib GIS library for archival and retrieval of geospatial data. Many thanks to the Lua and TerraLib teams for providing such good environments to build upon!</p>
+<p><a href="http://www.lua.org"><img alt="http://www.lua.org/" src="images/lua2.gif" /></a> <a href="http://www.dpi.inpe.br/terralib5/wiki/doku.php"><img alt="TerraLib" src="images/logo_terralib.jpg" /></a></p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<hr />
+<p><a href="https://www.gov.br/cnpq/pt-br"><img alt="cnpq" src="images/cnpq-logo.jpg" /></a> <a href="http://www.fundoamazonia.gov.br/"><img alt="fundo amazonia" src="images/logo-fundo-amazonia.jpg" /></a></p>
+<h2 id="about">About</h2>
+<hr />
+<p>TerraME has been developed as a joint effort among Earth System Science Center (CCST/INPE), TerraLab (Laboratory for Modelling and Simulation of Earth Systems), at Federal University of Ouro Preto, and Image Processing Division (DPI/INPE).</p>
+<p><a href="http://www.terralab.ufop.br/"><img alt="TerraLab" src="images/logo-terralab-peq.jpg" /></a>
+<a href="http://www.ufop.br/"><img alt="UFOP" src="images/logo_ufop.jpg" /></a>
+<a href="http://www.ccst.inpe.br/#"><img alt="CCST" src="images/logo-ccst.jpg" /></a>
+<a href="http://www.dpi.inpe.br/"><img alt="DPI" src="images/logo-dpi.jpg" /></a>
+<a href="http://www.inpe.br/"><img alt="INPE" src="images/inpe.jpg" /></a></p>
+<h2 id="statistics">Statistics</h2>
+<hr />
+<p><a href="http://www3.clustrmaps.com/counter/maps.php?url=http://www.terrame.org"><img alt="Locations of visitors to this page" src="images/index2.png" /></a></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+    
+  </body>
+</html>
