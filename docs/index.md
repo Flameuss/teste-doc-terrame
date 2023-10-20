@@ -110,7 +110,10 @@ The TerraME modelling language is an extension of the Lua programming language a
 
 ### Funding
 
-[![cnpq](./media/images/cnpq-logo.jpg)](https://www.gov.br/cnpq/pt-br) [![fundo amazonia](./media/images/logo-fundo-amazonia.jpg)](http://www.fundoamazonia.gov.br/) <img src="./media/images/fapesp.png" alt="img-logo" width="50"/>
+[![cnpq](./media/images/cnpq-logo.jpg)](https://www.gov.br/cnpq/pt-br) 
+[![fundo amazonia](./media/images/logo-fundo-amazonia.jpg)](http://www.fundoamazonia.gov.br/) 
+[![fapesp](./media/images/fapesp.jpg)](https://fapesp.br/) 
+
 
 ## About
 
