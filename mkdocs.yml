@@ -1,26 +1,24 @@
-site_name: TerraME 
+site_name: TerraME
 
 
 
 
-theme: 
+theme:
   name: readthedocs
   custom_dir: overrides
   logo: img/terramee.png
   site_favicon: img/favicon.ico
   highlightjs: true
 
-  
+
+
 
 nav:
   - 'index.md'
 
 
-
-
-  
 markdown_extensions:
-  
+
   #pymdown
   - pymdownx.tasklist # Lista de tarefas
   - pymdownx.emoji # Emojis
