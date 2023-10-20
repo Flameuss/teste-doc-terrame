@@ -33,8 +33,8 @@ using the command prompt. The graphical interface has options to run examples, c
 
 You can implement models in TerraME using any text file editor of your preference, such as [Notepad++](http://notepad-plus-plus.org/), [Vim](http://www.vim.org/) or [Emacs](http://www.gnu.org/software/emacs/). We currently suggest that you use [ZeroBraneStudio](http://studio.zerobrane.com/) as your programming environment to develop models in TerraME. It is free and open source (but it is possible to donate to the project). After downloading and installing ZeroBraneStudio (ZBS), please execute the steps in the tutorial available [here](https://github.com/TerraME/terrame/wiki/ZB).
 
-Documentation
 
+## Documentation
 ---
 
 ### Tutorials
@@ -46,9 +46,6 @@ Documentation
 - [Multiple Simulations](https://github.com/TerraME/terrame/wiki/Calibration)
 - [Publishing Geospatial Data](https://github.com/TerraME/terrame/wiki/Publish)
 
-### FAQ
-
-Frequently asked questions are answered [here](https://github.com/TerraME/terrame/wiki/FAQ).
 
 ### Packages
 
@@ -65,11 +62,7 @@ Using the graphical interface, it is possible to download and install packages f
 - [**sysdyn**](http://www.terrame.org/packages/doc/sysdyn/doc/index.html): Examples using system dynamics models.
 - [**calibration**](http://www.terrame.org/packages/doc/calibration/doc/index.html): Functions to run a given model several times, as well as metrics to compute goodness-of-fit and to calibrate models using genetic algorithms.
 - [**publish**](http://www.terrame.org/packages/doc/publish/doc/index.html): Create webmap tools using the input as well as output of models.
-
-Under development packages:
-
 - [**gpm**](http://www.terrame.org/packages/doc/gpm/doc/index.html): Create geospatial data as well as neighbourhood files using connectivity networks such as roads.
-- **rstats**: Integrate TerraME with R.
 
 You can run examples directly in the graphical interface of TerraME. Click in the Desktop icon to open it in Windows or run “terrame” in the command line to open the graphical interface. From the graphical interface it is possible to see the documentation of each installed package.
 
@@ -77,7 +70,14 @@ You can run examples directly in the graphical interface of TerraME. Click in th
 
 - We use TerraME on our courses on Enviromental Modelling. We give regular graduate courses in the research programs in Earth System Science at INPE and Computer Science at UFOP.
 
-### Papers and reports
+### FAQ
+
+Frequently asked questions are answered [here](https://github.com/TerraME/terrame/wiki/FAQ).
+
+
+## Papers and reports
+
+---
 
 - Bezerra et al. [New land-use change scenarios for Brazil: Refining global SSPs with a regional spatially-explicit allocation model](https://doi.org/10.1371/journal.pone.0256052). Plos one 17.4, 2022: e0256052.
 - Aguiar et al. [Land use change emission scenarios: anticipating a forest transition process in the Brazilian Amazon](https://doi.org/10.1111/gcb.13134). Global change biology, v. 22, n. 5, p. 1821-1840, 2016.
@@ -97,11 +97,35 @@ You can run examples directly in the graphical interface of TerraME. Click in th
 - [LUCCME](http://luccme.ccst.inpe.br/), an extension for top-down land change modeling.
 - [INPE-EM](http://inpe-em.ccst.inpe.br/conteudo_en/index.html), a framework to compute greenhouse gases emission estimates from land cover change
 
-## People
+
+## Acknowledgements
+---
+
+### Supporting Software
+
+
+The TerraME modelling language is an extension of the Lua programming language and interfaces to TerraLib GIS library for archival and retrieval of geospatial data. Many thanks to the Lua and TerraLib teams for providing such good environments to build upon!
+
+[![http://www.lua.org/](./media/images/lua2.gif)](http://www.lua.org) [![TerraLib](./media/images/logo_terralib.jpg)](http://www.dpi.inpe.br/terralib5/wiki/doku.php)
+
+### Funding
+
+[![cnpq](./media/images/cnpq-logo.jpg)](https://www.gov.br/cnpq/pt-br) [![fundo amazonia](./media/images/logo-fundo-amazonia.jpg)](http://www.fundoamazonia.gov.br/) <img src="./media/images/fapesp.png" alt="img-logo" width="50"/>
+
+## About
 
 ---
 
-The chief developers of TerraME are Pedro R. Andrade, from INPE, and [Tiago Garcia de Senna Carneiro](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:tiago:indice), from Federal University of Ouro Preto (UFOP). INPE's researchers involved in developing models using TerraME include [Dr. Gilberto Camara](http://www.dpi.inpe.br/gilberto), [Dr. Antonio Miguel Monteiro](http://www.dpi.inpe.br/~miguel), and[Dr. Ana Paula Aguiar](http://www.dpi.inpe.br/quem_somos/anapaula/). The current development group is composed of:
+TerraME has been developed as a joint effort between INPE and TerraLab (Laboratory for Modelling and Simulation of Earth Systems), at Federal University of Ouro Preto.
+
+[![INPE](./media/images/inpe.jpg)](http://www.inpe.br/)
+[![TerraLab](./media/images/logo-terralab-peq.jpg)](http://www.terralab.ufop.br/)
+[![UFOP](./media/images/logo_ufop.jpg)](http://www.ufop.br/)
+
+The chief developers of TerraME are Pedro R. Andrade, from INPE, and [Tiago Garcia de Senna Carneiro](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:tiago:indice), from Federal University of Ouro Preto (UFOP). INPE's researchers involved in developing models using TerraME include [Dr. Gilberto Camara](http://www.dpi.inpe.br/gilberto), [Dr. Antonio Miguel Monteiro](http://www.dpi.inpe.br/~miguel), and[Dr. Ana Paula Aguiar](http://www.dpi.inpe.br/quem_somos/anapaula/).
+
+
+Past contributors to TerraME include:
 
 - Rodrigo Avancini
 - Antônio Oliveira Jr.
@@ -110,9 +134,6 @@ The chief developers of TerraME are Pedro R. Andrade, from INPE, and [Tiago Garc
 - Pedro Henrique Costa
 - Raphael Costa
 - [Rodrigo Reis Pereira](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:reisrodrigo:indice)
-
-Past contributors to TerraME include:
-
 - [Antônio José da Cunha Rodrigues](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:antonio:indice)
 - [Breno de Almeida Pereira](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:pereirabreno:indice)
 - [Frederico Gadelha Guimarães](https://plus.google.com/109986130474370451035/about)
@@ -126,31 +147,6 @@ Past contributors to TerraME include:
 - [Tiago Franca de Melo Lima](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:tiagolima:indice)
 - [Washington Sena de França](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:francawashington:indice)
 
-## Supporting Software
-
----
-
-The TerraME modelling language is an extension of the Lua programming language and interfaces to TerraLib GIS library for archival and retrieval of geospatial data. Many thanks to the Lua and TerraLib teams for providing such good environments to build upon!
-
-[![http://www.lua.org/](./media/images/lua2.gif)](http://www.lua.org) [![TerraLib](./media/images/logo_terralib.jpg)](http://www.dpi.inpe.br/terralib5/wiki/doku.php)
-
-## Acknowledgements
-
----
-
-[![cnpq](./media/images/cnpq-logo.jpg)](https://www.gov.br/cnpq/pt-br) [![fundo amazonia](./media/images/logo-fundo-amazonia.jpg)](http://www.fundoamazonia.gov.br/)
-
-## About
-
----
-
-TerraME has been developed as a joint effort among Earth System Science Center (CCST/INPE), TerraLab (Laboratory for Modelling and Simulation of Earth Systems), at Federal University of Ouro Preto, and Image Processing Division (DPI/INPE).
-
-[![TerraLab](./media/images/logo-terralab-peq.jpg)](http://www.terralab.ufop.br/)
-[![UFOP](./media/images/logo_ufop.jpg)](http://www.ufop.br/)
-[![CCST](./media/images/logo-ccst.jpg)](http://www.ccst.inpe.br/#)
-[![DPI](./media/images/logo-dpi.jpg)](http://www.dpi.inpe.br/)
-[![INPE](./media/images/inpe.jpg)](http://www.inpe.br/)
 
 
 ## Statistics

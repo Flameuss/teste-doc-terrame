@@ -13,8 +13,8 @@ theme:
   
 
 nav:
-  - 🚀 Introduction: 
-    - TerraME | Multiparadigm Modeling Toolkit: 'index.md'
+  - 'index.md'
+
 
 
 
