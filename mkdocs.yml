@@ -6,7 +6,7 @@ site_name: TerraME
 theme:
   name: readthedocs
   custom_dir: overrides
-  logo: img/terramee.png
+  logo: img/terrameee.png
   site_favicon: img/favicon.ico
   highlightjs: true
 
