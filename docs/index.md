@@ -17,7 +17,7 @@ A vision of research motivations and directions of Environmental Modelling in IN
 ---
 The latest version of TerraME is 2.0.1 (Released on 20 August 2020). It has installers for Windows and Mac and there is a compiled version for Linux.
 
-- [**Download TerraME 2.0.1**](https://github.com/TerraME/terrame/releases)
+[**Download TerraME 2.0.1**](https://github.com/TerraME/terrame/releases)
 
 In Windows, you can run TerraME by clicking in the icon on Desktop. In Mac and Linux, it is possible to run it by calling
 
@@ -68,7 +68,7 @@ You can run examples directly in the graphical interface of TerraME. Click in th
 
 ### Courses
 
-- We use TerraME on our courses on Enviromental Modelling. We give regular graduate courses in the research programs in Earth System Science at INPE and Computer Science at UFOP.
+We use TerraME on our courses on Enviromental Modelling. We give regular graduate courses in the research programs in Earth System Science at INPE and Computer Science at UFOP.
 
 ### FAQ
 
@@ -96,24 +96,6 @@ Frequently asked questions are answered [here](https://github.com/TerraME/terram
 
 - [LUCCME](http://luccme.ccst.inpe.br/), an extension for top-down land change modeling.
 - [INPE-EM](http://inpe-em.ccst.inpe.br/conteudo_en/index.html), a framework to compute greenhouse gases emission estimates from land cover change
-
-
-## Acknowledgements
----
-
-### Supporting Software
-
-
-The TerraME modelling language is an extension of the Lua programming language and interfaces to TerraLib GIS library for archival and retrieval of geospatial data. Many thanks to the Lua and TerraLib teams for providing such good environments to build upon!
-
-[![http://www.lua.org/](./media/images/lua2.gif)](http://www.lua.org) [![TerraLib](./media/images/logo_terralib.jpg)](http://www.dpi.inpe.br/terralib5/wiki/doku.php)
-
-### Funding
-
-[![cnpq](./media/images/cnpq-logo.jpg)](https://www.gov.br/cnpq/pt-br) 
-[![fundo amazonia](./media/images/logo-fundo-amazonia.jpg)](http://www.fundoamazonia.gov.br/) 
-[![fapesp](./media/images/fapesp.jpg)](https://fapesp.br/) 
-
 
 ## About
 
@@ -150,7 +132,20 @@ Past contributors to TerraME include:
 - [Tiago Franca de Melo Lima](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:tiagolima:indice)
 - [Washington Sena de França](http://www.terralab.ufop.br/dokuwiki/doku.php?id=terralab:equipe:francawashington:indice)
 
+## Acknowledgements
+---
 
+### Supporting Software
+
+The TerraME modelling language is an extension of the Lua programming language and interfaces to TerraLib GIS library for archival and retrieval of geospatial data. Many thanks to the Lua and TerraLib teams for providing such good environments to build upon!
+
+[![http://www.lua.org/](./media/images/lua2.gif)](http://www.lua.org) [![TerraLib](./media/images/logo_terralib.jpg)](http://www.dpi.inpe.br/terralib5/wiki/doku.php)
+
+### Funding
+
+[![cnpq](./media/images/cnpq-logo.jpg)](https://www.gov.br/cnpq/pt-br)
+[![fundo amazonia](./media/images/logo-fundo-amazonia.jpg)](http://www.fundoamazonia.gov.br/)
+[![fapesp](./media/images/fapesp.jpg)](https://fapesp.br/)
 
 ## Statistics
 
