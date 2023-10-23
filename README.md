@@ -1,1 +1,1 @@
-[TerraME](https://terrame.github.io/teste-doc-terrame/)
+[TerraME](https://terrame.github.io/terrame-webpage/)
