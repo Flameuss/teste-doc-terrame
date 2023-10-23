@@ -1,1 +1,1 @@
-[TerraME](https://terrame.github.io/terrame-webpage/)
+[TerraME](https://terrame.github.io/webpage/)
