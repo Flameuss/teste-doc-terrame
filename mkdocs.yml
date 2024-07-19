@@ -9,12 +9,54 @@ theme:
   logo: img/terrameee.png
   site_favicon: img/favicon.ico
   highlightjs: true
-
+  extra_css: _static/custom.css
 
 
 
 nav:
   - 'index.md'
+  - Base: 
+    - Index: 'base/index.md'
+    - Types:
+      - Agent: 'base/types/agent.md'
+      - Automaton: 'base/types/automaton.md'
+      - Cell: 'base/types/cell.md'
+      - CellularSpace: 'base/types/cellularSpace.md'
+      - Chart: 'base/types/chart.md'
+      - Choice: 'base/types/choice.md'
+      - Clock: 'base/types/clock.md'
+      - DataFrame: 'base/types/dataFrame.md'
+      - Directory: 'base/types/directory.md'
+      - Environment: 'base/types/environment.md'
+      - Event: 'base/types/event.md'
+      - File: 'base/types/file.md'
+      - Flow: 'base/types/flow.md'
+      - Group: 'base/types/group.md'
+      - InternetSender: 'base/types/internetSender.md'
+      - Jump: 'base/types/jump.md'
+      - Log: 'base/types/log.md'
+      - Mandatory: 'base/types/mandatory.md'
+      - Map: 'base/types/map.md'
+      - Model: 'base/types/model.md'
+      - Neighborhood: 'base/types/neighborhood.md'
+      - Profiler: 'base/types/profiler.md'
+      - Random: 'base/types/random.md'
+      - SocialNetwork: 'base/types/socialNetwork.md'
+      - Society: 'base/types/society.md'
+      - State: 'base/types/state.md'
+      - TextScreen: 'base/types/textScreen.md'
+      - Timer: 'base/types/timer.md'
+      - Trajectory: 'base/types/trajectory.md'
+      - UnitTest: 'base/types/unitTest.md'
+      - VisualTable: 'base/types/visualTable.md'
+    - Functions:
+      - ErrorHandling: 'base/functions/errorHandling.md'
+      - Os: 'base/functions/os.md'
+      - Package: 'base/functions/package.md'
+      - Utils: 'base/functions/utils.md'
+    - Examples: 'base/examples.md'
+    - Data: 'base/data.md'
+    - Font: 'base/font.md'
 
 
 markdown_extensions:
@@ -28,4 +70,5 @@ markdown_extensions:
   - pymdownx.superfences #bloquinho
 
 
-copyright: Copyright &copy; 2023 TerraME
+
+copyright: Copyright &copy; 2024 TerraME
