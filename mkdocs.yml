@@ -9,7 +9,7 @@ theme:
   logo: img/terrameee.png
   site_favicon: img/favicon.ico
   highlightjs: true
-  extra_css: _static/custom.css
+  extra_css: css/extra.css
 
 
 
