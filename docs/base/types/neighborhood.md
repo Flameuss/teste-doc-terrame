@@ -18,15 +18,15 @@ n = Neighborhood{}
 
 |                                                                            |                                                                                                            |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [add](http://localhost:5500/old/files/Neighborhood.html#add)               | Add a new [Cell](./cell.md) to the Neighborhood.                           |
-| [clear](http://localhost:5500/old/files/Neighborhood.html#clear)           | Remove all [Cells](./cell.md) from the Neighborhood.                       |
-| [getWeight](http://localhost:5500/old/files/Neighborhood.html#getWeight)   | Return the weight of the connection to a given neighbor [Cell](./cell.md). |
-| [isEmpty](http://localhost:5500/old/files/Neighborhood.html#isEmpty)       | Return whether the Neighborhood does not contain any [Cell](./cell.md).    |
-| [isNeighbor](http://localhost:5500/old/files/Neighborhood.html#isNeighbor) | Return whether a given [Cell](./cell.md) belongs to the Neighborhood.      |
-| [remove](http://localhost:5500/old/files/Neighborhood.html#remove)         | Remove a [Cell](./cell.md) from the Neighborhood.                          |
-| [sample](http://localhost:5500/old/files/Neighborhood.html#sample)         | Return a random [Cell](./cell.md) from the Neighborhood.                   |
-| [setWeight](http://localhost:5500/old/files/Neighborhood.html#setWeight)   | Update a weight of the connection to a given neighbor [Cell](./cell.md).   |
-| [#](http://localhost:5500/old/files/Neighborhood.html##)                   | Return the number of [Cells](./cell.md) in the Neighborhood.               |
+| [add](./neighborhood.md#add)               | Add a new [Cell](./cell.md) to the Neighborhood.                           |
+| [clear](./neighborhood.md#clear)           | Remove all [Cells](./cell.md) from the Neighborhood.                       |
+| [getWeight](./neighborhood.md#getweight)   | Return the weight of the connection to a given neighbor [Cell](./cell.md). |
+| [isEmpty](./neighborhood.md#isempty)       | Return whether the Neighborhood does not contain any [Cell](./cell.md).    |
+| [isNeighbor](./neighborhood.md#isneighbor) | Return whether a given [Cell](./cell.md) belongs to the Neighborhood.      |
+| [remove](./neighborhood.md#remove)         | Remove a [Cell](./cell.md) from the Neighborhood.                          |
+| [sample](./neighborhood.md#sample)         | Return a random [Cell](./cell.md) from the Neighborhood.                   |
+| [setWeight](./neighborhood.md#setweight)   | Update a weight of the connection to a given neighbor [Cell](./cell.md).   |
+| [#](./neighborhood.md##)                   | Return the number of [Cells](./cell.md) in the Neighborhood.               |
 
 
 ---
