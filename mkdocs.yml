@@ -69,6 +69,8 @@ markdown_extensions:
   - pymdownx.highlight # código
   - pymdownx.superfences #bloquinho
 
+  - tables
+
 
 
 copyright: Copyright &copy; 2024 TerraME

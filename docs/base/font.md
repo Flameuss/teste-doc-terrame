@@ -1,15 +1,15 @@
 # Font
 
-|                                                                                        |                                                                                                          |
-| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+|                                                        |                                                                                                          |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | [Chess](./font.md#chess)                               | Chess icons.                                                                                             |
-| [Grissom Free](./font.md#grissom-free)               | Intellecta Design makes research and development of fonts with historical and artistical relevant forms. |
-| [JLS Smiles Sampler](./font.md#jls-smiles-sampler) | Font by Michael Adkins & James Stirling.                                                                 |
-| [LL Faces](./font.md#ll-faces)                       | Head faces of different sizes and internal content.                                                      |
-| [Pet Animals](./font.md#pet-animals)                 | Pet animals by Zdravko Andreev, aka Z-Designs.                                                           |
+| [Grissom Free](./font.md#grissom-free)                 | Intellecta Design makes research and development of fonts with historical and artistical relevant forms. |
+| [JLS Smiles Sampler](./font.md#jls-smiles-sampler)     | Font by Michael Adkins & James Stirling.                                                                 |
+| [LL Faces](./font.md#ll-faces)                         | Head faces of different sizes and internal content.                                                      |
+| [Pet Animals](./font.md#pet-animals)                   | Pet animals by Zdravko Andreev, aka Z-Designs.                                                           |
 | [Pregnancy](./font.md#pregnancy)                       | Pregnancy icons.                                                                                         |
 | [Science](./font.md#science)                           | Some science objects and symbols.                                                                        |
-| [Freaky Face](./font.md#freaky-face)                 | Some faces with different number of eyes.                                                                |
+| [Freaky Face](./font.md#freaky-face)                   | Some faces with different number of eyes.                                                                |
 | [Ubuntu](./font.md#ubuntu)                             | The Ubuntu Font Family are a set of matching new libre/open fonts.                                       |
 
 ---
@@ -21,10 +21,7 @@
 **Source:** [https://www.dafont.com/chess.font](https://www.dafont.com/chess.font)  
 **Symbols:**
 
-|        |     |      |     |        |     |      |     |       |     |
-| ------ | --- | ---- | --- | ------ | --- | ---- | --- | ----- | --- |
-| bishop | b   | king | k   | knight | h   | pawn | p   | queen | q   |
-| rook   | r   |
+![Chess](../media/images/chess.jpeg)
 
 ---
 
@@ -35,12 +32,7 @@
 **Source:** [http://www.dafont.com/grissom.font](http://www.dafont.com/grissom.font)  
 **Symbols:**
 
-|           |     |        |     |        |     |             |     |           |     |
-| --------- | --- | ------ | --- | ------ | --- | ----------- | --- | --------- | --- |
-| ant       | J   | beetle | 4   | bug    | X   | bug2        | d   | butterfly | Q   |
-| dragonfly | Z   | fly    | G   | fly2   | a   | grasshopper | P   | mantis    | l   |
-| scorpion  | m   | snail  | K   | spider | V   |
-
+![Grissom Free](../media/images/grissom-free.jpeg)
 ---
 
 ## JLS Smiles Sampler
@@ -50,10 +42,7 @@
 **Source:** [http://www.dafont.com/jls-smiles-sampler.font](http://www.dafont.com/jls-smiles-sampler.font)  
 **Symbols:**
 
-|       |     |          |     |        |     |        |     |          |     |
-| ----- | --- | -------- | --- | ------ | --- | ------ | --- | -------- | --- |
-| cry   | e   | mustache | c   | pirate | J   | sick   | q   | skeleton | V   |
-| smile | A   | smile2   | G   | smile3 | M   | smile4 | O   | vampire  | X   |
+![JLS Smiles Sampler](../media/images/JLS-smiles.jpeg)
 
 ---
 
@@ -64,12 +53,7 @@
 **Source:** [https://www.dafont.com/llfaces.font](https://www.dafont.com/llfaces.font)  
 **Symbols:**
 
-|        |     |        |     |        |     |        |     |        |     |
-| ------ | --- | ------ | --- | ------ | --- | ------ | --- | ------ | --- |
-| head1  | L   | head10 | U   | head11 | V   | head12 | W   | head2  | M   |
-| head3  | N   | head4  | O   | head5  | P   | head6  | Q   | head7  | R   |
-| head8  | S   | head9  | T   | size0  | 1   | size1  | 2   | size2f | 4   |
-| size2m | 3   | size3f | 6   | size3m | 5   | size4f | 8   | size4m | 7   |
+![LL Faces](../media/images/LL-faces.jpeg)
 
 ---
 
@@ -80,11 +64,7 @@
 **Source:** [http://www.dafont.com/pet-animals.font](http://www.dafont.com/pet-animals.font)  
 **Symbols:**
 
-|        |     |     |     |     |     |        |     |       |     |
-| ------ | --- | --- | --- | --- | --- | ------ | --- | ----- | --- |
-| bird   | M   | cat | Z   | dog | U   | fish   | B   | horse | N   |
-| mouse  | H   | owl | G   | pig | P   | rabbit | C   | snake | J   |
-| turtle | L   |
+![Pet Animals](../media/images/pet-animals.jpeg)
 
 ---
 
@@ -95,11 +75,7 @@
 **Source:** [https://www.dafont.com/pregnancy.font](https://www.dafont.com/pregnancy.font)  
 **Symbols:**
 
-|           |     |           |     |           |     |           |     |           |     |
-| --------- | --- | --------- | --- | --------- | --- | --------- | --- | --------- | --- |
-| ambulance | x   | baby1     | R   | baby2     | W   | coupple   | m   | dna       | ]   |
-| doctor    | <   | embryo1   | 3   | embryo2   | ?   | feet      | T   | hands     | \   |
-| nurse     | Z   | pregnant1 | D   | pregnant2 | G   | pregnant3 | H   | pregnant4 | K   |
+![Pregnancy](../media/images/pregnancy.jpeg)
 
 ---
 
@@ -110,10 +86,7 @@
 **Source:** [https://dl.dafont.com/dl/?f=science](https://dl.dafont.com/dl/?f=science)  
 **Symbols:**
 
-|            |     |       |     |      |     |           |     |      |     |
-| ---------- | --- | ----- | --- | ---- | --- | --------- | --- | ---- | --- |
-| atom       | [   | doubt | f   | lamp | '   | magnifier | *   | mask | e   |
-| researcher | a   |
+![Science](../media/images/science.jpeg)
 
 ---
 
@@ -124,10 +97,8 @@
 **Source:** [https://www.dafont.com/the-freaky-face.font](https://www.dafont.com/the-freaky-face.font)  
 **Symbols:**
 
-|      |     |      |     |      |     |      |     |      |     |
-| ---- | --- | ---- | --- | ---- | --- | ---- | --- | ---- | --- |
-| eye0 | 0   | eye1 | 1   | eye2 | 2   | eye3 | 3   | eye4 | 4   |
-| eye5 | 5   | eye6 | 6   | eye7 | 7   | eye8 | 8   | eye9 | 9   |
+
+![Freaky Face](../media/images/freaky-face.jpeg)
 
 ---
 
@@ -138,18 +109,5 @@
 **Source:** [http://font.ubuntu.com](http://font.ubuntu.com/)  
 **Symbols:**
 
-|     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A   | A   | B   | B   | C   | C   | D   | D   | E   | E   |
-| F   | F   | G   | G   | H   | H   | I   | I   | J   | J   |
-| K   | K   | L   | L   | M   | M   | N   | N   | O   | O   |
-| P   | P   | Q   | Q   | R   | R   | S   | S   | T   | T   |
-| U   | U   | V   | V   | W   | W   | X   | X   | Y   | Y   |
-| Z   | Z   |
-
-
-
-
-
-
+![Ubuntu](../media/images/ubuntu.jpeg)
 
