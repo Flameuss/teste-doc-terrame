@@ -51,7 +51,7 @@ You can implement models in TerraME using any text file editor of your preferenc
 
 You can execute a Google search in TerraME packages [here](https://cse.google.com/cse/publicurl?cx=011124210546699273653:pomdzxscb3o). The two basic packages of TerraME that comes with its installation are:
 
-- [**base**](http://www.terrame.org/packages/doc/base/doc/index.html): A package with the basic modelling concepts, such as Cell, CellularSpace, Agent, Timer, and Model.
+- [**base**](./base/index.md): A package with the basic modelling concepts, such as Cell, CellularSpace, Agent, Timer, and Model.
 - [**gis**](http://www.terrame.org/packages/doc/gis/doc/index.html): A package to handle geospatial data. It has types to manage TerraView projects as well as functions to create and fill cellular layers.
 
 Using the graphical interface, it is possible to download and install packages from TerraME's repository. They are are:
