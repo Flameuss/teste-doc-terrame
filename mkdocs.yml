@@ -57,19 +57,23 @@ nav:
     - Examples: 'base/examples.md'
     - Data: 'base/data.md'
     - Font: 'base/font.md'
-
+  - Package:
+    - Package-list: 'package/package-list.md'
 
 markdown_extensions:
 
   #pymdown
   - pymdownx.tasklist # Lista de tarefas
-  - pymdownx.emoji # Emojis
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.mark # Marcações
   - pymdownx.tilde # Tachado
   - pymdownx.highlight # código
   - pymdownx.superfences #bloquinho
 
   - tables
+  - attr_list
 
 
 
